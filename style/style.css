@@ -51,6 +51,15 @@ a {
 
 
 
+
+
+
+
+
+
+
+
+
 /* ANIMACIONES */
 
 
@@ -98,8 +107,152 @@ h2:hover{
 /* ANIMACIONES */
 
 
-/* Clases genericas */
+
+
+/* carousel */
+
+.carousel-item > iframe 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------HEADER-------- */
+
+
+.subtitulo {
+    font-size: 70px;
+    margin: 50px;
+}
+
+.texto{
+    font-size: 40px;
+    
+}
+
+.separador{
+    margin: 150px;
+}
+.linea {
+    border-top: 1px solid black;
+    height: 2px;
+    max-width: 200px;
+    padding: 0;
+    margin: 20px auto 0 auto; 
+}
+
+.separador-video{
+    margin: 30px;
+}
+
+.texto-personajes {
+    font-size: 40px;
+    margin: 70px;
+}
+
+
+/* -------------INDEX-MAIN-Class------------ */
+
+/* --------INDEX--------- */
+
+
+
+
+/* ---------Tarjeta-------- */
+.tarjeta-producto{
+   border: 2px black solid;
+
+    min-width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    margin: 10px;
+}
+
+.tarjeta-producto img{
+    width: 60%;
+}
+.tarjeta-producto h3, span {
+    font-size: 25px;
+}
+
+.slider-productos{
+    display: flex;
+    overflow: auto;
+    
+}
+
+
+/* ------botones----- */
+.btn {
+    border: solid rgb(104, 104, 255) 2px;
+    border-radius: 10px;
+    padding: 8px 10px;
+    background-color: rgba(0, 0, 0, 0.172);
+    
+}
+
+
+
+
+
+/* ------------contacto----------- */
+
+.contacto{
+    background: rgba(0, 255, 234, 0.164);
+    background: linear-gradient(120deg, rgba(81, 193, 238, 0.249) 0%, rgba(60, 220, 245, 0.23rgba(106, 183, 211, 0.31)3, 211) 100%);
+}
+
+.formulario{
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    
+    
+    
+    
+}
+
+label {
+    border: rgba(0, 0, 0, 0.275) 3px solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    border: rgb(29, 8, 8) 1px solid;
+    padding: 10px;
+    margin: 4px;
+    
+}
 
