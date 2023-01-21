@@ -1,0 +1,27 @@
+.tarjeta-producto {
+    border: 2px black solid;
+
+    min-width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    margin: 10px;
+}
+
+.tarjeta-producto img {
+    width: 60%;
+}
+
+.tarjeta-producto h3,
+span {
+    font-size: 25px;
+}
+
+.slider-productos {
+    display: flex;
+    overflow: auto;
+
+}

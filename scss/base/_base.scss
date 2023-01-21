@@ -1,0 +1,39 @@
+@import "../utils/variables";
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    color: $base-color;
+
+}
+
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-image: url(../img/abstract-futuristic-background-with-3d-design.jpg);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.white {
+    color: white;
+}
+
+.bg-op-black {
+    background-color: rgba(20, 19, 19, 0.579);
+
+}
+

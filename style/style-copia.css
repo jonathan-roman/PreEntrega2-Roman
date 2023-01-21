@@ -30,7 +30,7 @@ a {
 /* ------------RESETEO Y FONDO---------- */
 
 .white {
-    color: white;
+    color: $base-color;
 }
 
 .bg-op-black {
